@@ -1,0 +1,133 @@
+[
+    {
+      "name": "slither_scan",
+      "description": "对项目或单文件进行 Slither 静态扫描",
+      "parameters": {
+        "type": "object",
+        "properties": {
+          "target": {"type":"string", "description":"文件路径或项目根目录"},
+          "config": {"type":"string", "nullable":true}
+        },
+        "required": ["target"]
+      }
+    },
+    {
+      "name": "mythril_scan",
+      "description": "Mythril 符号执行/污点分析",
+      "parameters": {
+        "type": "object",
+        "properties": {
+          "bytecode": {"type":"string"},
+          "entry": {"type":"string", "nullable":true}
+        },
+        "required": ["bytecode"]
+      }
+    },
+    {
+      "name": "read_chain_state",
+      "description": "读取代理槽位、owner、role、pause、实现地址等部署态",
+      "parameters": {
+        "type": "object",
+        "properties": {
+          "chain": {"type":"string"},
+          "address": {"type":"string"}
+        },
+        "required": ["chain","address"]
+      }
+    },
+    {
+      "name": "forge_compile",
+      "description": "Foundry 编译，返回 ABI/Bytecode/编译器",
+      "parameters": {
+        "type": "object",
+        "properties": {
+          "root_dir": {"type":"string"},
+          "evm_version": {"type":"string","nullable":true},
+          "opt_runs": {"type":"integer","default":200}
+        },
+        "required": ["root_dir"]
+      }
+    },
+    {
+      "name": "rag_search",
+      "description": "【重要工具】检索安全审计知识库，包含SWC漏洞库、OpenZeppelin最佳实践、历史审计报告、常见漏洞模式等。在发现潜在漏洞、需要修复建议、查找类似案例时必须使用。检索关键词示例：reentrancy、access control、integer overflow、ERC20、proxy upgrade等",
+      "parameters": {
+        "type": "object",
+        "properties": {
+          "query": {"type":"string", "description":"检索查询关键词，如漏洞类型、合约模式、安全问题等"},
+          "k": {"type":"integer","default":5, "description":"返回结果数量，默认5条"}
+        },
+        "required": ["query"]
+      }
+    },
+    {
+      "name": "read_file",
+      "description": "读取文件内容（支持合约源码、配置文件等）",
+      "parameters": {
+        "type": "object",
+        "properties": {
+          "file_path": {"type":"string", "description":"文件路径（相对或绝对路径）"},
+          "max_lines": {"type":"integer", "default":1000, "description":"最大读取行数（防止文件过大）"},
+          "encoding": {"type":"string", "default":"utf-8", "description":"文件编码"}
+        },
+        "required": ["file_path"]
+      }
+    },
+    {
+      "name": "echidna_test",
+      "description": "使用 Echidna 进行基于属性的模糊测试，发现合约漏洞",
+      "parameters": {
+        "type": "object",
+        "properties": {
+          "target": {"type":"string", "description":"测试文件路径或项目根目录"},
+          "config": {"type":"string", "nullable":true, "description":"Echidna配置文件路径（可选）"},
+          "test_mode": {"type":"string", "default":"property", "description":"测试模式：property（属性测试）或assertion（断言测试）"},
+          "timeout": {"type":"integer", "default":300, "description":"执行超时时间（秒）"},
+          "seq_len": {"type":"integer", "default":100, "description":"测试序列长度"}
+        },
+        "required": ["target"]
+      }
+    },
+    {
+      "name": "semgrep_scan",
+      "description": "使用 Semgrep 进行基于规则的代码扫描，检测常见漏洞模式",
+      "parameters": {
+        "type": "object",
+        "properties": {
+          "target": {"type":"string", "description":"文件路径或项目根目录"},
+          "config": {"type":"string", "nullable":true, "description":"Semgrep配置（规则集或配置文件，如'p/solidity'，默认使用Solidity规则集）"},
+          "severity": {"type":"string", "nullable":true, "description":"过滤严重程度：ERROR、WARNING或INFO"},
+          "output_format": {"type":"string", "default":"json", "description":"输出格式：json或text"}
+        },
+        "required": ["target"]
+      }
+    },
+    {
+      "name": "analyzer_scan",
+      "description": "使用 4naly3er 进行 Gas 优化分析，识别可优化的Gas消耗点",
+      "parameters": {
+        "type": "object",
+        "properties": {
+          "target": {"type":"string", "description":"文件路径或项目根目录"},
+          "report_format": {"type":"string", "default":"json", "description":"报告格式：json、md或txt"},
+          "no_optimizations": {"type":"boolean", "default":false, "description":"是否禁用优化建议"}
+        },
+        "required": ["target"]
+      }
+    },
+    {
+      "name": "hardhat_simulate",
+      "description": "使用 Hardhat Network 本地测试网络模拟交易执行，验证交易是否会成功及Gas消耗。支持fork主网状态进行测试",
+      "parameters": {
+        "type": "object",
+        "properties": {
+          "transaction": {"type":"object", "description":"交易对象，必须包含from、to、input字段，可选value、gas等"},
+          "fork_url": {"type":"string", "nullable":true, "description":"Fork的网络RPC URL（可选，用于fork主网状态，如'https://eth.llamarpc.com'）"},
+          "fork_block": {"type":"integer", "nullable":true, "description":"Fork的区块号（可选，与fork_url一起使用）"},
+          "rpc_url": {"type":"string", "nullable":true, "description":"Hardhat节点RPC URL（可选，默认http://localhost:8545）"}
+        },
+        "required": ["transaction"]
+      }
+    }
+  ]
+  

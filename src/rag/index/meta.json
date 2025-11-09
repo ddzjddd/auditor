@@ -1,0 +1,546 @@
+{
+  "metas": [
+    {
+      "source": "src/rag/corpus/oz/ReentrancyGuard.md",
+      "chunk_id": 0
+    },
+    {
+      "source": "src/rag/corpus/oz/ReentrancyGuard.md",
+      "chunk_id": 1
+    },
+    {
+      "source": "src/rag/corpus/oz/ReentrancyGuard.md",
+      "chunk_id": 2
+    },
+    {
+      "source": "src/rag/corpus/oz/UUPSUpgradeable.md",
+      "chunk_id": 0
+    },
+    {
+      "source": "src/rag/corpus/oz/UUPSUpgradeable.md",
+      "chunk_id": 1
+    },
+    {
+      "source": "src/rag/corpus/oz/UUPSUpgradeable.md",
+      "chunk_id": 2
+    },
+    {
+      "source": "src/rag/corpus/oz/ERC20.md",
+      "chunk_id": 0
+    },
+    {
+      "source": "src/rag/corpus/oz/ERC20.md",
+      "chunk_id": 1
+    },
+    {
+      "source": "src/rag/corpus/oz/Pausable.md",
+      "chunk_id": 0
+    },
+    {
+      "source": "src/rag/corpus/oz/Pausable.md",
+      "chunk_id": 1
+    },
+    {
+      "source": "src/rag/corpus/oz/ERC721.md",
+      "chunk_id": 0
+    },
+    {
+      "source": "src/rag/corpus/oz/ERC721.md",
+      "chunk_id": 1
+    },
+    {
+      "source": "src/rag/corpus/oz/AccessControl.md",
+      "chunk_id": 0
+    },
+    {
+      "source": "src/rag/corpus/oz/AccessControl.md",
+      "chunk_id": 1
+    },
+    {
+      "source": "src/rag/corpus/oz/AccessControl.md",
+      "chunk_id": 2
+    },
+    {
+      "source": "src/rag/corpus/oz/Ownable.md",
+      "chunk_id": 0
+    },
+    {
+      "source": "src/rag/corpus/oz/Ownable.md",
+      "chunk_id": 1
+    },
+    {
+      "source": "src/rag/corpus/oz/SafeERC20.md",
+      "chunk_id": 0
+    },
+    {
+      "source": "src/rag/corpus/oz/SafeERC20.md",
+      "chunk_id": 1
+    },
+    {
+      "source": "src/rag/corpus/swc/swc-102.md",
+      "chunk_id": 0
+    },
+    {
+      "source": "src/rag/corpus/swc/swc-111.md",
+      "chunk_id": 0
+    },
+    {
+      "source": "src/rag/corpus/swc/swc-107.md",
+      "chunk_id": 0
+    },
+    {
+      "source": "src/rag/corpus/swc/swc-149.md",
+      "chunk_id": 0
+    },
+    {
+      "source": "src/rag/corpus/swc/swc-101.md",
+      "chunk_id": 0
+    },
+    {
+      "source": "src/rag/corpus/swc/swc-105.md",
+      "chunk_id": 0
+    },
+    {
+      "source": "src/rag/corpus/swc/swc-132.md",
+      "chunk_id": 0
+    },
+    {
+      "source": "src/rag/corpus/swc/swc-152.md",
+      "chunk_id": 0
+    },
+    {
+      "source": "src/rag/corpus/swc/swc-135.md",
+      "chunk_id": 0
+    },
+    {
+      "source": "src/rag/corpus/swc/swc-126.md",
+      "chunk_id": 0
+    },
+    {
+      "source": "src/rag/corpus/swc/swc-134.md",
+      "chunk_id": 0
+    },
+    {
+      "source": "src/rag/corpus/swc/swc-122.md",
+      "chunk_id": 0
+    },
+    {
+      "source": "src/rag/corpus/swc/swc-144.md",
+      "chunk_id": 0
+    },
+    {
+      "source": "src/rag/corpus/swc/swc-136.md",
+      "chunk_id": 0
+    },
+    {
+      "source": "src/rag/corpus/swc/swc-146.md",
+      "chunk_id": 0
+    },
+    {
+      "source": "src/rag/corpus/swc/swc-142.md",
+      "chunk_id": 0
+    },
+    {
+      "source": "src/rag/corpus/swc/swc-147.md",
+      "chunk_id": 0
+    },
+    {
+      "source": "src/rag/corpus/swc/swc-103.md",
+      "chunk_id": 0
+    },
+    {
+      "source": "src/rag/corpus/swc/swc-141.md",
+      "chunk_id": 0
+    },
+    {
+      "source": "src/rag/corpus/swc/swc-115.md",
+      "chunk_id": 0
+    },
+    {
+      "source": "src/rag/corpus/swc/swc-150.md",
+      "chunk_id": 0
+    },
+    {
+      "source": "src/rag/corpus/swc/swc-123.md",
+      "chunk_id": 0
+    },
+    {
+      "source": "src/rag/corpus/swc/swc-124.md",
+      "chunk_id": 0
+    },
+    {
+      "source": "src/rag/corpus/swc/swc-138.md",
+      "chunk_id": 0
+    },
+    {
+      "source": "src/rag/corpus/swc/swc-106.md",
+      "chunk_id": 0
+    },
+    {
+      "source": "src/rag/corpus/swc/swc-130.md",
+      "chunk_id": 0
+    },
+    {
+      "source": "src/rag/corpus/swc/swc-110.md",
+      "chunk_id": 0
+    },
+    {
+      "source": "src/rag/corpus/swc/swc-129.md",
+      "chunk_id": 0
+    },
+    {
+      "source": "src/rag/corpus/swc/swc-133.md",
+      "chunk_id": 0
+    },
+    {
+      "source": "src/rag/corpus/swc/swc-108.md",
+      "chunk_id": 0
+    },
+    {
+      "source": "src/rag/corpus/swc/swc-131.md",
+      "chunk_id": 0
+    },
+    {
+      "source": "src/rag/corpus/swc/swc-143.md",
+      "chunk_id": 0
+    },
+    {
+      "source": "src/rag/corpus/swc/swc-119.md",
+      "chunk_id": 0
+    },
+    {
+      "source": "src/rag/corpus/swc/swc-145.md",
+      "chunk_id": 0
+    },
+    {
+      "source": "src/rag/corpus/swc/swc-104.md",
+      "chunk_id": 0
+    },
+    {
+      "source": "src/rag/corpus/swc/swc-114.md",
+      "chunk_id": 0
+    },
+    {
+      "source": "src/rag/corpus/swc/swc-120.md",
+      "chunk_id": 0
+    },
+    {
+      "source": "src/rag/corpus/swc/swc-125.md",
+      "chunk_id": 0
+    },
+    {
+      "source": "src/rag/corpus/swc/swc-139.md",
+      "chunk_id": 0
+    },
+    {
+      "source": "src/rag/corpus/swc/swc-118.md",
+      "chunk_id": 0
+    },
+    {
+      "source": "src/rag/corpus/swc/swc-153.md",
+      "chunk_id": 0
+    },
+    {
+      "source": "src/rag/corpus/swc/swc-155.md",
+      "chunk_id": 0
+    },
+    {
+      "source": "src/rag/corpus/swc/swc-117.md",
+      "chunk_id": 0
+    },
+    {
+      "source": "src/rag/corpus/swc/swc-109.md",
+      "chunk_id": 0
+    },
+    {
+      "source": "src/rag/corpus/swc/swc-148.md",
+      "chunk_id": 0
+    },
+    {
+      "source": "src/rag/corpus/swc/swc-154.md",
+      "chunk_id": 0
+    },
+    {
+      "source": "src/rag/corpus/swc/swc-121.md",
+      "chunk_id": 0
+    },
+    {
+      "source": "src/rag/corpus/swc/swc-128.md",
+      "chunk_id": 0
+    },
+    {
+      "source": "src/rag/corpus/swc/swc-140.md",
+      "chunk_id": 0
+    },
+    {
+      "source": "src/rag/corpus/swc/swc-137.md",
+      "chunk_id": 0
+    },
+    {
+      "source": "src/rag/corpus/swc/swc-112.md",
+      "chunk_id": 0
+    },
+    {
+      "source": "src/rag/corpus/swc/swc-113.md",
+      "chunk_id": 0
+    },
+    {
+      "source": "src/rag/corpus/swc/swc-127.md",
+      "chunk_id": 0
+    },
+    {
+      "source": "src/rag/corpus/swc/swc-151.md",
+      "chunk_id": 0
+    },
+    {
+      "source": "src/rag/corpus/swc/swc-116.md",
+      "chunk_id": 0
+    },
+    {
+      "source": "src/rag/corpus/reports/example_vault_audit.md",
+      "chunk_id": 0
+    },
+    {
+      "source": "src/rag/corpus/reports/example_vault_audit.md",
+      "chunk_id": 1
+    },
+    {
+      "source": "src/rag/corpus/reports/example_vault_audit.md",
+      "chunk_id": 2
+    },
+    {
+      "source": "src/rag/corpus/reports/example_vault_audit.md",
+      "chunk_id": 3
+    },
+    {
+      "source": "src/rag/corpus/reports/example_vault_audit.md",
+      "chunk_id": 4
+    },
+    {
+      "source": "src/rag/corpus/reports/example_vault_audit.md",
+      "chunk_id": 5
+    },
+    {
+      "source": "src/rag/corpus/reports/example_vault_audit.md",
+      "chunk_id": 6
+    },
+    {
+      "source": "src/rag/corpus/reports/example_vault_audit.md",
+      "chunk_id": 7
+    },
+    {
+      "source": "src/rag/corpus/reports/example_vault_audit.md",
+      "chunk_id": 8
+    },
+    {
+      "source": "src/rag/corpus/reports/example_vault_audit.md",
+      "chunk_id": 9
+    },
+    {
+      "source": "src/rag/corpus/reports/example_vault_audit.md",
+      "chunk_id": 10
+    },
+    {
+      "source": "src/rag/corpus/reports/example_vault_audit.md",
+      "chunk_id": 11
+    },
+    {
+      "source": "src/rag/corpus/reports/example_token_audit.md",
+      "chunk_id": 0
+    },
+    {
+      "source": "src/rag/corpus/best_practices/Testing_best_practices.md",
+      "chunk_id": 0
+    },
+    {
+      "source": "src/rag/corpus/best_practices/Testing_best_practices.md",
+      "chunk_id": 1
+    },
+    {
+      "source": "src/rag/corpus/best_practices/Testing_best_practices.md",
+      "chunk_id": 2
+    },
+    {
+      "source": "src/rag/corpus/best_practices/Common_vulnerability_patterns.md",
+      "chunk_id": 0
+    },
+    {
+      "source": "src/rag/corpus/best_practices/Common_vulnerability_patterns.md",
+      "chunk_id": 1
+    },
+    {
+      "source": "src/rag/corpus/best_practices/Common_vulnerability_patterns.md",
+      "chunk_id": 2
+    },
+    {
+      "source": "src/rag/corpus/best_practices/Common_vulnerability_patterns.md",
+      "chunk_id": 3
+    },
+    {
+      "source": "src/rag/corpus/best_practices/ERC20_common_issues.md",
+      "chunk_id": 0
+    },
+    {
+      "source": "src/rag/corpus/best_practices/ERC20_common_issues.md",
+      "chunk_id": 1
+    },
+    {
+      "source": "src/rag/corpus/best_practices/ERC20_common_issues.md",
+      "chunk_id": 2
+    },
+    {
+      "source": "src/rag/corpus/best_practices/Gas_optimization.md",
+      "chunk_id": 0
+    },
+    {
+      "source": "src/rag/corpus/best_practices/Gas_optimization.md",
+      "chunk_id": 1
+    },
+    {
+      "source": "src/rag/corpus/best_practices/Gas_optimization.md",
+      "chunk_id": 2
+    },
+    {
+      "source": "src/rag/corpus/best_practices/Gas_optimization.md",
+      "chunk_id": 3
+    },
+    {
+      "source": "src/rag/corpus/best_practices/Governance_and_Multisig.md",
+      "chunk_id": 0
+    },
+    {
+      "source": "src/rag/corpus/best_practices/Governance_and_Multisig.md",
+      "chunk_id": 1
+    },
+    {
+      "source": "src/rag/corpus/best_practices/Proxy_patterns.md",
+      "chunk_id": 0
+    },
+    {
+      "source": "src/rag/corpus/best_practices/Proxy_patterns.md",
+      "chunk_id": 1
+    },
+    {
+      "source": "src/rag/corpus/best_practices/Proxy_patterns.md",
+      "chunk_id": 2
+    },
+    {
+      "source": "src/rag/corpus/best_practices/Audit_report_template.md",
+      "chunk_id": 0
+    },
+    {
+      "source": "src/rag/corpus/best_practices/Audit_report_template.md",
+      "chunk_id": 1
+    }
+  ],
+  "texts": [
+    "# ReentrancyGuard / 重入保护\n\n## 概述\nReentrancyGuard 提供了防止重入攻击的保护机制。\n\n## 核心功能\n- `nonReentrant` 修饰符：防止函数在执行期间被重入调用\n- 使用状态变量 `_status` 跟踪重入状态\n\n## 使用示例\n```solidity\nimport \"@openzeppelin/contracts/security/ReentrancyGuard.sol\";",
+    "contract MyContract is ReentrancyGuard {\n    mapping(address => uint256) public balances;\n    \n    function withdraw(uint256 amount) public nonReentrant {\n        require(balances[msg.sender] >= amount, \"Insufficient balance\");\n        \n        balances[msg.sender] -= amount;\n        (bool success, ) = msg.sender.call{value: amount}(\"\");\n        require(success, \"Transfer failed\");\n    }\n}\n```\n\n## 最佳实践\n1. 在外部调用之前更新状态（Checks-Effects-Interactions 模式）\n2. 对所有涉及外部调用的函数使用 `nonReentrant` 修饰符\n3. 对于复杂逻辑，考虑使用 ReentrancyGuard 的 `_reentrancyGuardEntered` 检查",
+    "## 常见错误\n- 忘记在外部调用前更新状态\n- 在 `nonReentrant` 函数中调用其他可能重入的函数\n- 使用 `nonReentrant` 但未遵循 CEI 模式\n\n## 安全注意事项\n- `nonReentrant` 不能防止跨函数重入，需要仔细设计状态更新顺序\n- 对于复杂合约，考虑使用更细粒度的重入保护\n- 测试所有可能的重入路径",
+    "# UUPSUpgradeable / 升级代理模式\n\n## 概述\nUUPS (Universal Upgradeable Proxy Standard) 是一种可升级合约模式。\n\n## 核心功能\n- `_authorizeUpgrade(newImplementation)`: 授权升级的内部函数\n- `upgradeTo(newImplementation)`: 升级到新实现\n- `upgradeToAndCall(newImplementation, data)`: 升级并调用初始化函数\n\n## 使用示例\n```solidity\nimport \"@openzeppelin/contracts-upgradeable/proxy/utils/UUPSUpgradeable.sol\";\nimport \"@openzeppelin/contracts-upgradeable/access/OwnableUpgradeable.sol\";",
+    "contract MyContract is UUPSUpgradeable, OwnableUpgradeable {\n    uint256 public value;\n    \n    function initialize() public initializer {\n        __Ownable_init();\n        __UUPSUpgradeable_init();\n    }\n    \n    function _authorizeUpgrade(address newImplementation) \n        internal \n        override \n        onlyOwner \n    {\n        // 只有所有者可以授权升级\n    }\n    \n    function setValue(uint256 _value) public {\n        value = _value;\n    }\n}\n```\n\n## 最佳实践\n1. 必须使用 `onlyOwner` 或其他访问控制保护 `_authorizeUpgrade`\n2. 在升级前充分测试新实现\n3. 使用 `upgradeToAndCall` 进行初始化时，确保数据格式正确\n4. 考虑使用时间锁延迟升级操作",
+    "## 常见错误\n- 忘记保护 `_authorizeUpgrade`，导致任何人都可以升级\n- 在升级后的实现中修改存储布局，导致数据损坏\n- 忘记调用 `__UUPSUpgradeable_init()` 或 `__Ownable_init()`\n\n## 安全注意事项\n- 升级是高风险操作，必须严格控制访问权限\n- 确保新实现与旧实现的存储布局兼容\n- 在生产环境升级前，在测试网充分测试\n- 考虑使用多签钱包和时间锁管理升级权限",
+    "# ERC20 / 代币标准\n\n## 概述\nERC20 是以太坊上最常用的代币标准，定义了可互换代币的基本接口。\n\n## 核心函数\n- `totalSupply()`: 返回代币总供应量\n- `balanceOf(account)`: 返回账户余额\n- `transfer(to, amount)`: 转账代币\n- `transferFrom(from, to, amount)`: 从指定地址转账\n- `approve(spender, amount)`: 授权支出额度\n- `allowance(owner, spender)`: 查询授权额度\n\n## 使用示例\n```solidity\nimport \"@openzeppelin/contracts/token/ERC20/ERC20.sol\";\n\ncontract MyToken is ERC20 {\n    constructor() ERC20(\"MyToken\", \"MTK\") {\n        _mint(msg.sender, 1000000 * 10**decimals());\n    }\n}\n```\n\n## 最佳实践\n1. 使用 OpenZeppelin 的标准实现\n2. 注意 `approve` 的竞态条件问题\n3. 使用 SafeERC20 处理非标准代币\n4. 实现适当的访问控制",
+    "## 常见错误\n- 忘记实现 `decimals()` 函数\n- `approve` 竞态条件\n- 未检查返回值（某些代币如 USDT）\n- 精度计算错误\n\n## 安全注意事项\n- 防止整数溢出（Solidity 0.8+ 已内置）\n- 实现适当的访问控制\n- 考虑添加暂停机制\n- 防止重入攻击",
+    "# Pausable / 暂停机制\n\n## 概述\nPausable 提供了紧急暂停合约功能的机制，在发现漏洞时可以及时停止交易。\n\n## 核心功能\n- `paused()`: 检查合约是否已暂停\n- `pause()`: 暂停合约\n- `unpause()`: 恢复合约\n- `whenNotPaused` 修饰符：仅在未暂停时执行\n\n## 使用示例\n```solidity\nimport \"@openzeppelin/contracts/security/Pausable.sol\";\nimport \"@openzeppelin/contracts/access/Ownable.sol\";",
+    "contract MyContract is Pausable, Ownable {\n    function transfer(address to, uint256 amount) \n        public \n        whenNotPaused \n    {\n        // 转账逻辑\n    }\n    \n    function pause() public onlyOwner {\n        _pause();\n    }\n    \n    function unpause() public onlyOwner {\n        _unpause();\n    }\n}\n```\n\n## 最佳实践\n1. 使用多签钱包控制暂停权限\n2. 考虑实施时间锁延迟暂停操作\n3. 在关键函数上使用 `whenNotPaused` 修饰符\n4. 提供清晰的暂停原因和恢复计划\n\n## 常见错误\n- 忘记在关键函数上添加 `whenNotPaused` 修饰符\n- 暂停权限过于集中\n- 没有恢复机制或计划\n\n## 安全注意事项\n- 暂停是紧急措施，不应滥用\n- 确保有明确的恢复流程\n- 考虑使用时间锁防止恶意暂停",
+    "# ERC721 / 非同质化代币标准\n\n## 概述\nERC721 定义了非同质化代币（NFT）的标准接口，每个代币都是唯一的。\n\n## 核心函数\n- `balanceOf(owner)`: 返回所有者拥有的 NFT 数量\n- `ownerOf(tokenId)`: 返回 NFT 的所有者\n- `safeTransferFrom(from, to, tokenId)`: 安全转账\n- `approve(to, tokenId)`: 授权单个 NFT\n- `setApprovalForAll(operator, approved)`: 授权所有 NFT\n- `getApproved(tokenId)`: 查询授权地址\n\n## 使用示例\n```solidity\nimport \"@openzeppelin/contracts/token/ERC721/ERC721.sol\";",
+    "contract MyNFT is ERC721 {\n    uint256 private _tokenIdCounter;\n    \n    constructor() ERC721(\"MyNFT\", \"MNFT\") {}\n    \n    function mint(address to) public returns (uint256) {\n        uint256 tokenId = _tokenIdCounter;\n        _tokenIdCounter++;\n        _safeMint(to, tokenId);\n        return tokenId;\n    }\n}\n```\n\n## 最佳实践\n1. 使用 `_safeMint` 而不是 `_mint`（检查接收者是否支持 ERC721）\n2. 实现适当的访问控制\n3. 考虑实现元数据接口（ERC721Metadata）\n4. 使用枚举器接口（ERC721Enumerable）如果需要遍历\n\n## 常见错误\n- 忘记检查 tokenId 是否存在\n- 未实现 `_beforeTokenTransfer` 钩子\n- 授权逻辑错误\n- 重入攻击风险\n\n## 安全注意事项\n- 防止重入攻击\n- 实现适当的访问控制\n- 检查接收者地址\n- 防止整数溢出",
+    "# AccessControl / 角色控制\n\n## 概述\nOpenZeppelin 的 AccessControl 提供了基于角色的访问控制（RBAC）机制。\n\n## 核心功能\n- `hasRole(role, account)`: 检查账户是否拥有特定角色\n- `grantRole(role, account)`: 授予角色\n- `revokeRole(role, account)`: 撤销角色\n- `renounceRole(role, account)`: 账户主动放弃角色\n\n## 使用示例\n```solidity\nimport \"@openzeppelin/contracts/access/AccessControl.sol\";",
+    "contract MyContract is AccessControl {\n    bytes32 public constant ADMIN_ROLE = keccak256(\"ADMIN_ROLE\");\n    bytes32 public constant MINTER_ROLE = keccak256(\"MINTER_ROLE\");\n    \n    constructor() {\n        _grantRole(DEFAULT_ADMIN_ROLE, msg.sender);\n    }\n    \n    function mint(address to, uint256 amount) public onlyRole(MINTER_ROLE) {\n        // mint logic\n    }\n}\n```\n\n## 最佳实践\n1. 使用 `DEFAULT_ADMIN_ROLE` 作为超级管理员角色\n2. 为每个功能定义独立的角色（如 MINTER_ROLE, BURNER_ROLE）\n3. 使用 `onlyRole` 修饰符保护敏感函数\n4. 避免在构造函数外直接调用 `_grantRole`，使用 `grantRole` 并通过事件追踪",
+    "## 常见错误\n- 忘记授予 DEFAULT_ADMIN_ROLE，导致无法管理其他角色\n- 使用 `onlyOwner` 而不是 `onlyRole`，限制了灵活性\n- 没有正确设置角色层级关系\n\n## 安全注意事项\n- 确保 DEFAULT_ADMIN_ROLE 的持有者可信\n- 考虑使用多签钱包管理管理员角色\n- 定期审查角色分配情况",
+    "# Ownable / 所有权模式\n\n## 概述\nOwnable 提供了简单的单所有者访问控制模式。\n\n## 核心功能\n- `owner()`: 获取当前所有者地址\n- `onlyOwner` 修饰符：限制函数仅所有者可调用\n- `transferOwnership(newOwner)`: 转移所有权\n- `renounceOwnership()`: 放弃所有权（使合约无主）\n\n## 使用示例\n```solidity\nimport \"@openzeppelin/contracts/access/Ownable.sol\";\n\ncontract MyContract is Ownable {\n    function sensitiveFunction() public onlyOwner {\n        // 只有所有者可以调用\n    }\n    \n    function transferOwnership(address newOwner) public override onlyOwner {\n        require(newOwner != address(0), \"New owner cannot be zero address\");\n        super.transferOwnership(newOwner);\n    }\n}\n```",
+    "## 最佳实践\n1. 在构造函数中设置初始所有者\n2. 转移所有权前验证新所有者地址不为零地址\n3. 对于重要操作，考虑使用多签钱包作为所有者\n4. 谨慎使用 `renounceOwnership()`，确保合约不再需要所有者控制\n\n## 常见错误\n- 忘记在构造函数中设置所有者\n- 转移所有权到零地址或错误地址\n- 在不需要时使用 `renounceOwnership()`，导致合约无法升级\n\n## 安全注意事项\n- 所有者拥有完全控制权，必须妥善保管私钥\n- 考虑使用时间锁延迟关键操作\n- 对于生产环境，建议使用 AccessControl 而不是 Ownable",
+    "# SafeERC20 / 安全 ERC20 操作\n\n## 概述\nSafeERC20 提供了安全的 ERC20 代币操作，处理非标准代币（如 USDT）的返回值问题。\n\n## 核心功能\n- `safeTransfer(token, to, value)`: 安全转账\n- `safeTransferFrom(token, from, to, value)`: 安全转账从\n- `safeApprove(token, spender, value)`: 安全授权\n- `safeIncreaseAllowance(token, spender, value)`: 安全增加授权\n- `safeDecreaseAllowance(token, spender, value)`: 安全减少授权\n\n## 使用示例\n```solidity\nimport \"@openzeppelin/contracts/token/ERC20/utils/SafeERC20.sol\";\nimport \"@openzeppelin/contracts/token/ERC20/IERC20.sol\";",
+    "contract MyContract {\n    using SafeERC20 for IERC20;\n    \n    function transferTokens(IERC20 token, address to, uint256 amount) public {\n        token.safeTransfer(to, amount); // 自动处理返回值\n    }\n}\n```\n\n## 最佳实践\n1. 始终使用 SafeERC20 处理外部代币\n2. 使用 `safeIncreaseAllowance` 和 `safeDecreaseAllowance` 避免竞态条件\n3. 不要混用 SafeERC20 和直接调用\n\n## 常见错误\n- 直接调用 `transfer` 而不使用 `safeTransfer`\n- 忘记导入 `using SafeERC20 for IERC20`\n- 混用 SafeERC20 和直接调用\n\n## 安全注意事项\n- SafeERC20 不能防止重入攻击，仍需使用 ReentrancyGuard\n- 某些代币可能不遵循标准，SafeERC20 可以处理这些情况",
+    "# SWC-102: SWC-102 - Smart Contract Weakness Classification (SWC)\n\n## 描述\nSmart Contract Weakness Classification and Test Cases\n\n## 详细信息\n请访问: https://swcregistry.io/docs/SWC-102\n\n## 常见场景\n请参考 SWC Registry 官方文档获取详细信息和示例。\n\n## 修复建议\n1. 使用最新版本的 Solidity 编译器\n2. 启用所有编译器警告\n3. 进行全面的安全审计\n4. 使用 OpenZeppelin 等经过审计的库\n\n## 相关 SWC",
+    "# SWC-111: SWC-111 - Smart Contract Weakness Classification (SWC)\n\n## 描述\nSmart Contract Weakness Classification and Test Cases\n\n## 详细信息\n请访问: https://swcregistry.io/docs/SWC-111\n\n## 常见场景\n请参考 SWC Registry 官方文档获取详细信息和示例。\n\n## 修复建议\n1. 使用最新版本的 Solidity 编译器\n2. 启用所有编译器警告\n3. 进行全面的安全审计\n4. 使用 OpenZeppelin 等经过审计的库\n\n## 相关 SWC",
+    "# SWC-107: SWC-107 - Smart Contract Weakness Classification (SWC)\n\n## 描述\nSmart Contract Weakness Classification and Test Cases\n\n## 详细信息\n请访问: https://swcregistry.io/docs/SWC-107\n\n## 常见场景\n- 外部调用后更新状态：攻击者可以在回调中重入\n- 跨函数重入：通过不同函数重入\n\n## 修复建议\n1. 使用 ReentrancyGuard 的 `nonReentrant` 修饰符\n2. 遵循 CEI 模式（Checks-Effects-Interactions）\n3. 先更新状态，再进行外部调用\n\n## 相关 SWC\n- SWC-113: DoS with Failed Call",
+    "# SWC-149: Classification - Access Control\n\n## 描述\nClassification - Access Control\n\n## 详细信息\n请访问: https://swcregistry.io/docs/SWC-149\n\n## 常见场景\n请参考 SWC Registry 官方文档获取详细信息和示例。\n\n## 修复建议\n1. 使用最新版本的 Solidity 编译器\n2. 启用所有编译器警告\n3. 进行全面的安全审计\n4. 使用 OpenZeppelin 等经过审计的库\n\n## 相关 SWC",
+    "# SWC-101: SWC-101 - Smart Contract Weakness Classification (SWC)\n\n## 描述\nSmart Contract Weakness Classification and Test Cases\n\n## 详细信息\n请访问: https://swcregistry.io/docs/SWC-101\n\n## 常见场景\n- 整数溢出：`uint256 x = type(uint256).max; x + 1` 会溢出\n- 整数下溢：`uint256 x = 0; x - 1` 会下溢\n\n## 修复建议\n1. 使用 Solidity 0.8.0+（内置溢出检查）\n2. 或使用 OpenZeppelin 的 SafeMath 库\n3. 在关键计算前检查边界条件\n\n## 相关 SWC\n- SWC-141: Integer Overflow",
+    "# SWC-105: SWC-105 - Smart Contract Weakness Classification (SWC)\n\n## 描述\nSmart Contract Weakness Classification and Test Cases\n\n## 详细信息\n请访问: https://swcregistry.io/docs/SWC-105\n\n## 常见场景\n- 缺少访问控制的提现函数\n- 任何人都可以调用关键函数\n\n## 修复建议\n1. 使用 `onlyOwner` 或 `onlyRole` 修饰符\n2. 实现多签钱包控制\n3. 使用时间锁延迟关键操作\n\n## 相关 SWC\n- SWC-115: Authorization through tx.origin",
+    "# SWC-132: SWC-132 - Smart Contract Weakness Classification (SWC)\n\n## 描述\nSmart Contract Weakness Classification and Test Cases\n\n## 详细信息\n请访问: https://swcregistry.io/docs/SWC-132\n\n## 常见场景\n请参考 SWC Registry 官方文档获取详细信息和示例。\n\n## 修复建议\n1. 使用最新版本的 Solidity 编译器\n2. 启用所有编译器警告\n3. 进行全面的安全审计\n4. 使用 OpenZeppelin 等经过审计的库\n\n## 相关 SWC",
+    "# SWC-152: Classification - Environment\n\n## 描述\nClassification - Environment\n\n## 详细信息\n请访问: https://swcregistry.io/docs/SWC-152\n\n## 常见场景\n请参考 SWC Registry 官方文档获取详细信息和示例。\n\n## 修复建议\n1. 使用最新版本的 Solidity 编译器\n2. 启用所有编译器警告\n3. 进行全面的安全审计\n4. 使用 OpenZeppelin 等经过审计的库\n\n## 相关 SWC",
+    "# SWC-135: SWC-135 - Smart Contract Weakness Classification (SWC)\n\n## 描述\nSmart Contract Weakness Classification and Test Cases\n\n## 详细信息\n请访问: https://swcregistry.io/docs/SWC-135\n\n## 常见场景\n请参考 SWC Registry 官方文档获取详细信息和示例。\n\n## 修复建议\n1. 使用最新版本的 Solidity 编译器\n2. 启用所有编译器警告\n3. 进行全面的安全审计\n4. 使用 OpenZeppelin 等经过审计的库\n\n## 相关 SWC",
+    "# SWC-126: SWC-126 - Smart Contract Weakness Classification (SWC)\n\n## 描述\nSmart Contract Weakness Classification and Test Cases\n\n## 详细信息\n请访问: https://swcregistry.io/docs/SWC-126\n\n## 常见场景\n请参考 SWC Registry 官方文档获取详细信息和示例。\n\n## 修复建议\n1. 使用最新版本的 Solidity 编译器\n2. 启用所有编译器警告\n3. 进行全面的安全审计\n4. 使用 OpenZeppelin 等经过审计的库\n\n## 相关 SWC",
+    "# SWC-134: SWC-134 - Smart Contract Weakness Classification (SWC)\n\n## 描述\nSmart Contract Weakness Classification and Test Cases\n\n## 详细信息\n请访问: https://swcregistry.io/docs/SWC-134\n\n## 常见场景\n请参考 SWC Registry 官方文档获取详细信息和示例。\n\n## 修复建议\n1. 使用最新版本的 Solidity 编译器\n2. 启用所有编译器警告\n3. 进行全面的安全审计\n4. 使用 OpenZeppelin 等经过审计的库\n\n## 相关 SWC",
+    "# SWC-122: SWC-122 - Smart Contract Weakness Classification (SWC)\n\n## 描述\nSmart Contract Weakness Classification and Test Cases\n\n## 详细信息\n请访问: https://swcregistry.io/docs/SWC-122\n\n## 常见场景\n请参考 SWC Registry 官方文档获取详细信息和示例。\n\n## 修复建议\n1. 使用最新版本的 Solidity 编译器\n2. 启用所有编译器警告\n3. 进行全面的安全审计\n4. 使用 OpenZeppelin 等经过审计的库\n\n## 相关 SWC",
+    "# SWC-144: Uninitialized Local Variable\n\n## 描述\nUninitialized Local Variable\n\n## 详细信息\n请访问: https://swcregistry.io/docs/SWC-144\n\n## 常见场景\n请参考 SWC Registry 官方文档获取详细信息和示例。\n\n## 修复建议\n1. 使用最新版本的 Solidity 编译器\n2. 启用所有编译器警告\n3. 进行全面的安全审计\n4. 使用 OpenZeppelin 等经过审计的库\n\n## 相关 SWC",
+    "# SWC-136: SWC-136 - Smart Contract Weakness Classification (SWC)\n\n## 描述\nSmart Contract Weakness Classification and Test Cases\n\n## 详细信息\n请访问: https://swcregistry.io/docs/SWC-136\n\n## 常见场景\n请参考 SWC Registry 官方文档获取详细信息和示例。\n\n## 修复建议\n1. 使用最新版本的 Solidity 编译器\n2. 启用所有编译器警告\n3. 进行全面的安全审计\n4. 使用 OpenZeppelin 等经过审计的库\n\n## 相关 SWC",
+    "# SWC-146: Improper Verification of Cryptographic Signature\n\n## 描述\nImproper Verification of Cryptographic Signature\n\n## 详细信息\n请访问: https://swcregistry.io/docs/SWC-146\n\n## 常见场景\n请参考 SWC Registry 官方文档获取详细信息和示例。\n\n## 修复建议\n1. 使用最新版本的 Solidity 编译器\n2. 启用所有编译器警告\n3. 进行全面的安全审计\n4. 使用 OpenZeppelin 等经过审计的库\n\n## 相关 SWC",
+    "# SWC-142: Proper Signature Verification\n\n## 描述\nProper Signature Verification\n\n## 详细信息\n请访问: https://swcregistry.io/docs/SWC-142\n\n## 常见场景\n请参考 SWC Registry 官方文档获取详细信息和示例。\n\n## 修复建议\n1. 使用最新版本的 Solidity 编译器\n2. 启用所有编译器警告\n3. 进行全面的安全审计\n4. 使用 OpenZeppelin 等经过审计的库\n\n## 相关 SWC",
+    "# SWC-147: Improper Verification of Cryptographic Signature\n\n## 描述\nImproper Verification of Cryptographic Signature\n\n## 详细信息\n请访问: https://swcregistry.io/docs/SWC-147\n\n## 常见场景\n请参考 SWC Registry 官方文档获取详细信息和示例。\n\n## 修复建议\n1. 使用最新版本的 Solidity 编译器\n2. 启用所有编译器警告\n3. 进行全面的安全审计\n4. 使用 OpenZeppelin 等经过审计的库\n\n## 相关 SWC",
+    "# SWC-103: SWC-103 - Smart Contract Weakness Classification (SWC)\n\n## 描述\nSmart Contract Weakness Classification and Test Cases\n\n## 详细信息\n请访问: https://swcregistry.io/docs/SWC-103\n\n## 常见场景\n请参考 SWC Registry 官方文档获取详细信息和示例。\n\n## 修复建议\n1. 使用最新版本的 Solidity 编译器\n2. 启用所有编译器警告\n3. 进行全面的安全审计\n4. 使用 OpenZeppelin 等经过审计的库\n\n## 相关 SWC",
+    "# SWC-141: Integer Overflow\n\n## 描述\nInteger Overflow\n\n## 详细信息\n请访问: https://swcregistry.io/docs/SWC-141\n\n## 常见场景\n请参考 SWC Registry 官方文档获取详细信息和示例。\n\n## 修复建议\n1. 使用最新版本的 Solidity 编译器\n2. 启用所有编译器警告\n3. 进行全面的安全审计\n4. 使用 OpenZeppelin 等经过审计的库\n\n## 相关 SWC",
+    "# SWC-115: SWC-115 - Smart Contract Weakness Classification (SWC)\n\n## 描述\nSmart Contract Weakness Classification and Test Cases\n\n## 详细信息\n请访问: https://swcregistry.io/docs/SWC-115\n\n## 常见场景\n请参考 SWC Registry 官方文档获取详细信息和示例。\n\n## 修复建议\n1. 使用最新版本的 Solidity 编译器\n2. 启用所有编译器警告\n3. 进行全面的安全审计\n4. 使用 OpenZeppelin 等经过审计的库\n\n## 相关 SWC",
+    "# SWC-150: Classification - Arithmetic\n\n## 描述\nClassification - Arithmetic\n\n## 详细信息\n请访问: https://swcregistry.io/docs/SWC-150\n\n## 常见场景\n请参考 SWC Registry 官方文档获取详细信息和示例。\n\n## 修复建议\n1. 使用最新版本的 Solidity 编译器\n2. 启用所有编译器警告\n3. 进行全面的安全审计\n4. 使用 OpenZeppelin 等经过审计的库\n\n## 相关 SWC",
+    "# SWC-123: SWC-123 - Smart Contract Weakness Classification (SWC)\n\n## 描述\nSmart Contract Weakness Classification and Test Cases\n\n## 详细信息\n请访问: https://swcregistry.io/docs/SWC-123\n\n## 常见场景\n请参考 SWC Registry 官方文档获取详细信息和示例。\n\n## 修复建议\n1. 使用最新版本的 Solidity 编译器\n2. 启用所有编译器警告\n3. 进行全面的安全审计\n4. 使用 OpenZeppelin 等经过审计的库\n\n## 相关 SWC",
+    "# SWC-124: SWC-124 - Smart Contract Weakness Classification (SWC)\n\n## 描述\nSmart Contract Weakness Classification and Test Cases\n\n## 详细信息\n请访问: https://swcregistry.io/docs/SWC-124\n\n## 常见场景\n请参考 SWC Registry 官方文档获取详细信息和示例。\n\n## 修复建议\n1. 使用最新版本的 Solidity 编译器\n2. 启用所有编译器警告\n3. 进行全面的安全审计\n4. 使用 OpenZeppelin 等经过审计的库\n\n## 相关 SWC",
+    "# SWC-138: Uninitialized Return Variable\n\n## 描述\nUninitialized Return Variable\n\n## 详细信息\n请访问: https://swcregistry.io/docs/SWC-138\n\n## 常见场景\n请参考 SWC Registry 官方文档获取详细信息和示例。\n\n## 修复建议\n1. 使用最新版本的 Solidity 编译器\n2. 启用所有编译器警告\n3. 进行全面的安全审计\n4. 使用 OpenZeppelin 等经过审计的库\n\n## 相关 SWC",
+    "# SWC-106: SWC-106 - Smart Contract Weakness Classification (SWC)\n\n## 描述\nSmart Contract Weakness Classification and Test Cases\n\n## 详细信息\n请访问: https://swcregistry.io/docs/SWC-106\n\n## 常见场景\n请参考 SWC Registry 官方文档获取详细信息和示例。\n\n## 修复建议\n1. 使用最新版本的 Solidity 编译器\n2. 启用所有编译器警告\n3. 进行全面的安全审计\n4. 使用 OpenZeppelin 等经过审计的库\n\n## 相关 SWC",
+    "# SWC-130: SWC-130 - Smart Contract Weakness Classification (SWC)\n\n## 描述\nSmart Contract Weakness Classification and Test Cases\n\n## 详细信息\n请访问: https://swcregistry.io/docs/SWC-130\n\n## 常见场景\n请参考 SWC Registry 官方文档获取详细信息和示例。\n\n## 修复建议\n1. 使用最新版本的 Solidity 编译器\n2. 启用所有编译器警告\n3. 进行全面的安全审计\n4. 使用 OpenZeppelin 等经过审计的库\n\n## 相关 SWC",
+    "# SWC-110: SWC-110 - Smart Contract Weakness Classification (SWC)\n\n## 描述\nSmart Contract Weakness Classification and Test Cases\n\n## 详细信息\n请访问: https://swcregistry.io/docs/SWC-110\n\n## 常见场景\n请参考 SWC Registry 官方文档获取详细信息和示例。\n\n## 修复建议\n1. 使用最新版本的 Solidity 编译器\n2. 启用所有编译器警告\n3. 进行全面的安全审计\n4. 使用 OpenZeppelin 等经过审计的库\n\n## 相关 SWC",
+    "# SWC-129: SWC-129 - Smart Contract Weakness Classification (SWC)\n\n## 描述\nSmart Contract Weakness Classification and Test Cases\n\n## 详细信息\n请访问: https://swcregistry.io/docs/SWC-129\n\n## 常见场景\n请参考 SWC Registry 官方文档获取详细信息和示例。\n\n## 修复建议\n1. 使用最新版本的 Solidity 编译器\n2. 启用所有编译器警告\n3. 进行全面的安全审计\n4. 使用 OpenZeppelin 等经过审计的库\n\n## 相关 SWC",
+    "# SWC-133: SWC-133 - Smart Contract Weakness Classification (SWC)\n\n## 描述\nSmart Contract Weakness Classification and Test Cases\n\n## 详细信息\n请访问: https://swcregistry.io/docs/SWC-133\n\n## 常见场景\n请参考 SWC Registry 官方文档获取详细信息和示例。\n\n## 修复建议\n1. 使用最新版本的 Solidity 编译器\n2. 启用所有编译器警告\n3. 进行全面的安全审计\n4. 使用 OpenZeppelin 等经过审计的库\n\n## 相关 SWC",
+    "# SWC-108: SWC-108 - Smart Contract Weakness Classification (SWC)\n\n## 描述\nSmart Contract Weakness Classification and Test Cases\n\n## 详细信息\n请访问: https://swcregistry.io/docs/SWC-108\n\n## 常见场景\n请参考 SWC Registry 官方文档获取详细信息和示例。\n\n## 修复建议\n1. 使用最新版本的 Solidity 编译器\n2. 启用所有编译器警告\n3. 进行全面的安全审计\n4. 使用 OpenZeppelin 等经过审计的库\n\n## 相关 SWC",
+    "# SWC-131: SWC-131 - Smart Contract Weakness Classification (SWC)\n\n## 描述\nSmart Contract Weakness Classification and Test Cases\n\n## 详细信息\n请访问: https://swcregistry.io/docs/SWC-131\n\n## 常见场景\n请参考 SWC Registry 官方文档获取详细信息和示例。\n\n## 修复建议\n1. 使用最新版本的 Solidity 编译器\n2. 启用所有编译器警告\n3. 进行全面的安全审计\n4. 使用 OpenZeppelin 等经过审计的库\n\n## 相关 SWC",
+    "# SWC-143: Deprecated Solidity Pragmas\n\n## 描述\nDeprecated Solidity Pragmas\n\n## 详细信息\n请访问: https://swcregistry.io/docs/SWC-143\n\n## 常见场景\n请参考 SWC Registry 官方文档获取详细信息和示例。\n\n## 修复建议\n1. 使用最新版本的 Solidity 编译器\n2. 启用所有编译器警告\n3. 进行全面的安全审计\n4. 使用 OpenZeppelin 等经过审计的库\n\n## 相关 SWC",
+    "# SWC-119: SWC-119 - Smart Contract Weakness Classification (SWC)\n\n## 描述\nSmart Contract Weakness Classification and Test Cases\n\n## 详细信息\n请访问: https://swcregistry.io/docs/SWC-119\n\n## 常见场景\n请参考 SWC Registry 官方文档获取详细信息和示例。\n\n## 修复建议\n1. 使用最新版本的 Solidity 编译器\n2. 启用所有编译器警告\n3. 进行全面的安全审计\n4. 使用 OpenZeppelin 等经过审计的库\n\n## 相关 SWC",
+    "# SWC-145: Dangerous Public Function\n\n## 描述\nDangerous Public Function\n\n## 详细信息\n请访问: https://swcregistry.io/docs/SWC-145\n\n## 常见场景\n请参考 SWC Registry 官方文档获取详细信息和示例。\n\n## 修复建议\n1. 使用最新版本的 Solidity 编译器\n2. 启用所有编译器警告\n3. 进行全面的安全审计\n4. 使用 OpenZeppelin 等经过审计的库\n\n## 相关 SWC",
+    "# SWC-104: SWC-104 - Smart Contract Weakness Classification (SWC)\n\n## 描述\nSmart Contract Weakness Classification and Test Cases\n\n## 详细信息\n请访问: https://swcregistry.io/docs/SWC-104\n\n## 常见场景\n- 调用 `transfer()` 但不检查返回值\n- 某些代币（如 USDT）不返回 bool 值\n\n## 修复建议\n1. 使用 OpenZeppelin 的 SafeERC20\n2. 始终检查外部调用的返回值\n3. 使用 `require(success)` 验证调用结果\n\n## 相关 SWC\n- SWC-113: DoS with Failed Call",
+    "# SWC-114: SWC-114 - Smart Contract Weakness Classification (SWC)\n\n## 描述\nSmart Contract Weakness Classification and Test Cases\n\n## 详细信息\n请访问: https://swcregistry.io/docs/SWC-114\n\n## 常见场景\n请参考 SWC Registry 官方文档获取详细信息和示例。\n\n## 修复建议\n1. 使用最新版本的 Solidity 编译器\n2. 启用所有编译器警告\n3. 进行全面的安全审计\n4. 使用 OpenZeppelin 等经过审计的库\n\n## 相关 SWC",
+    "# SWC-120: SWC-120 - Smart Contract Weakness Classification (SWC)\n\n## 描述\nSmart Contract Weakness Classification and Test Cases\n\n## 详细信息\n请访问: https://swcregistry.io/docs/SWC-120\n\n## 常见场景\n请参考 SWC Registry 官方文档获取详细信息和示例。\n\n## 修复建议\n1. 使用最新版本的 Solidity 编译器\n2. 启用所有编译器警告\n3. 进行全面的安全审计\n4. 使用 OpenZeppelin 等经过审计的库\n\n## 相关 SWC",
+    "# SWC-125: SWC-125 - Smart Contract Weakness Classification (SWC)\n\n## 描述\nSmart Contract Weakness Classification and Test Cases\n\n## 详细信息\n请访问: https://swcregistry.io/docs/SWC-125\n\n## 常见场景\n请参考 SWC Registry 官方文档获取详细信息和示例。\n\n## 修复建议\n1. 使用最新版本的 Solidity 编译器\n2. 启用所有编译器警告\n3. 进行全面的安全审计\n4. 使用 OpenZeppelin 等经过审计的库\n\n## 相关 SWC",
+    "# SWC-139: Unpredictable State\n\n## 描述\nUnpredictable State\n\n## 详细信息\n请访问: https://swcregistry.io/docs/SWC-139\n\n## 常见场景\n请参考 SWC Registry 官方文档获取详细信息和示例。\n\n## 修复建议\n1. 使用最新版本的 Solidity 编译器\n2. 启用所有编译器警告\n3. 进行全面的安全审计\n4. 使用 OpenZeppelin 等经过审计的库\n\n## 相关 SWC",
+    "# SWC-118: SWC-118 - Smart Contract Weakness Classification (SWC)\n\n## 描述\nSmart Contract Weakness Classification and Test Cases\n\n## 详细信息\n请访问: https://swcregistry.io/docs/SWC-118\n\n## 常见场景\n请参考 SWC Registry 官方文档获取详细信息和示例。\n\n## 修复建议\n1. 使用最新版本的 Solidity 编译器\n2. 启用所有编译器警告\n3. 进行全面的安全审计\n4. 使用 OpenZeppelin 等经过审计的库\n\n## 相关 SWC",
+    "# SWC-153: Classification - Randomness\n\n## 描述\nClassification - Randomness\n\n## 详细信息\n请访问: https://swcregistry.io/docs/SWC-153\n\n## 常见场景\n请参考 SWC Registry 官方文档获取详细信息和示例。\n\n## 修复建议\n1. 使用最新版本的 Solidity 编译器\n2. 启用所有编译器警告\n3. 进行全面的安全审计\n4. 使用 OpenZeppelin 等经过审计的库\n\n## 相关 SWC",
+    "# SWC-155: Classification - Unchecked Return Values\n\n## 描述\nClassification - Unchecked Return Values\n\n## 详细信息\n请访问: https://swcregistry.io/docs/SWC-155\n\n## 常见场景\n请参考 SWC Registry 官方文档获取详细信息和示例。\n\n## 修复建议\n1. 使用最新版本的 Solidity 编译器\n2. 启用所有编译器警告\n3. 进行全面的安全审计\n4. 使用 OpenZeppelin 等经过审计的库\n\n## 相关 SWC",
+    "# SWC-117: SWC-117 - Smart Contract Weakness Classification (SWC)\n\n## 描述\nSmart Contract Weakness Classification and Test Cases\n\n## 详细信息\n请访问: https://swcregistry.io/docs/SWC-117\n\n## 常见场景\n请参考 SWC Registry 官方文档获取详细信息和示例。\n\n## 修复建议\n1. 使用最新版本的 Solidity 编译器\n2. 启用所有编译器警告\n3. 进行全面的安全审计\n4. 使用 OpenZeppelin 等经过审计的库\n\n## 相关 SWC",
+    "# SWC-109: SWC-109 - Smart Contract Weakness Classification (SWC)\n\n## 描述\nSmart Contract Weakness Classification and Test Cases\n\n## 详细信息\n请访问: https://swcregistry.io/docs/SWC-109\n\n## 常见场景\n请参考 SWC Registry 官方文档获取详细信息和示例。\n\n## 修复建议\n1. 使用最新版本的 Solidity 编译器\n2. 启用所有编译器警告\n3. 进行全面的安全审计\n4. 使用 OpenZeppelin 等经过审计的库\n\n## 相关 SWC",
+    "# SWC-148: Arbitrary Write to Fixed-Size Array\n\n## 描述\nArbitrary Write to Fixed-Size Array\n\n## 详细信息\n请访问: https://swcregistry.io/docs/SWC-148\n\n## 常见场景\n请参考 SWC Registry 官方文档获取详细信息和示例。\n\n## 修复建议\n1. 使用最新版本的 Solidity 编译器\n2. 启用所有编译器警告\n3. 进行全面的安全审计\n4. 使用 OpenZeppelin 等经过审计的库\n\n## 相关 SWC",
+    "# SWC-154: Classification - Time\n\n## 描述\nClassification - Time\n\n## 详细信息\n请访问: https://swcregistry.io/docs/SWC-154\n\n## 常见场景\n请参考 SWC Registry 官方文档获取详细信息和示例。\n\n## 修复建议\n1. 使用最新版本的 Solidity 编译器\n2. 启用所有编译器警告\n3. 进行全面的安全审计\n4. 使用 OpenZeppelin 等经过审计的库\n\n## 相关 SWC",
+    "# SWC-121: SWC-121 - Smart Contract Weakness Classification (SWC)\n\n## 描述\nSmart Contract Weakness Classification and Test Cases\n\n## 详细信息\n请访问: https://swcregistry.io/docs/SWC-121\n\n## 常见场景\n请参考 SWC Registry 官方文档获取详细信息和示例。\n\n## 修复建议\n1. 使用最新版本的 Solidity 编译器\n2. 启用所有编译器警告\n3. 进行全面的安全审计\n4. 使用 OpenZeppelin 等经过审计的库\n\n## 相关 SWC",
+    "# SWC-128: SWC-128 - Smart Contract Weakness Classification (SWC)\n\n## 描述\nSmart Contract Weakness Classification and Test Cases\n\n## 详细信息\n请访问: https://swcregistry.io/docs/SWC-128\n\n## 常见场景\n请参考 SWC Registry 官方文档获取详细信息和示例。\n\n## 修复建议\n1. 使用最新版本的 Solidity 编译器\n2. 启用所有编译器警告\n3. 进行全面的安全审计\n4. 使用 OpenZeppelin 等经过审计的库\n\n## 相关 SWC",
+    "# SWC-140: Missing Protection against Signature Replay Attacks\n\n## 描述\nMissing Protection against Signature Replay Attacks\n\n## 详细信息\n请访问: https://swcregistry.io/docs/SWC-140\n\n## 常见场景\n请参考 SWC Registry 官方文档获取详细信息和示例。\n\n## 修复建议\n1. 使用最新版本的 Solidity 编译器\n2. 启用所有编译器警告\n3. 进行全面的安全审计\n4. 使用 OpenZeppelin 等经过审计的库\n\n## 相关 SWC",
+    "# SWC-137: Storage of Unencrypted Private Data\n\n## 描述\nStorage of Unencrypted Private Data\n\n## 详细信息\n请访问: https://swcregistry.io/docs/SWC-137\n\n## 常见场景\n请参考 SWC Registry 官方文档获取详细信息和示例。\n\n## 修复建议\n1. 使用最新版本的 Solidity 编译器\n2. 启用所有编译器警告\n3. 进行全面的安全审计\n4. 使用 OpenZeppelin 等经过审计的库\n\n## 相关 SWC",
+    "# SWC-112: SWC-112 - Smart Contract Weakness Classification (SWC)\n\n## 描述\nSmart Contract Weakness Classification and Test Cases\n\n## 详细信息\n请访问: https://swcregistry.io/docs/SWC-112\n\n## 常见场景\n- 委托调用不可信合约\n- 存储布局冲突\n\n## 修复建议\n1. 仅委托调用可信合约\n2. 验证目标地址\n3. 使用库模式而非委托调用\n\n## 相关 SWC",
+    "# SWC-113: SWC-113 - Smart Contract Weakness Classification (SWC)\n\n## 描述\nSmart Contract Weakness Classification and Test Cases\n\n## 详细信息\n请访问: https://swcregistry.io/docs/SWC-113\n\n## 常见场景\n请参考 SWC Registry 官方文档获取详细信息和示例。\n\n## 修复建议\n1. 使用最新版本的 Solidity 编译器\n2. 启用所有编译器警告\n3. 进行全面的安全审计\n4. 使用 OpenZeppelin 等经过审计的库\n\n## 相关 SWC",
+    "# SWC-127: SWC-127 - Smart Contract Weakness Classification (SWC)\n\n## 描述\nSmart Contract Weakness Classification and Test Cases\n\n## 详细信息\n请访问: https://swcregistry.io/docs/SWC-127\n\n## 常见场景\n请参考 SWC Registry 官方文档获取详细信息和示例。\n\n## 修复建议\n1. 使用最新版本的 Solidity 编译器\n2. 启用所有编译器警告\n3. 进行全面的安全审计\n4. 使用 OpenZeppelin 等经过审计的库\n\n## 相关 SWC",
+    "# SWC-151: Classification - DoS\n\n## 描述\nClassification - DoS\n\n## 详细信息\n请访问: https://swcregistry.io/docs/SWC-151\n\n## 常见场景\n请参考 SWC Registry 官方文档获取详细信息和示例。\n\n## 修复建议\n1. 使用最新版本的 Solidity 编译器\n2. 启用所有编译器警告\n3. 进行全面的安全审计\n4. 使用 OpenZeppelin 等经过审计的库\n\n## 相关 SWC",
+    "# SWC-116: SWC-116 - Smart Contract Weakness Classification (SWC)\n\n## 描述\nSmart Contract Weakness Classification and Test Cases\n\n## 详细信息\n请访问: https://swcregistry.io/docs/SWC-116\n\n## 常见场景\n- 使用 `block.timestamp` 作为随机源\n- 依赖 `block.number` 进行时间计算\n\n## 修复建议\n1. 避免使用 block.timestamp 作为随机源\n2. 使用 Chainlink VRF 或其他可信随机源\n3. 使用 commit-reveal 方案\n\n## 相关 SWC\n- SWC-120: Weak Sources of Randomness",
+    "# Vault Contract 审计报告示例\n\n## 执行摘要\n\n**审计目标**: Vault.sol - 资金管理合约\n**审计日期**: 2024-01-01\n**审计方法**: 手动代码审查 + 自动化工具扫描\n**审计范围**: contracts/Vault.sol, contracts/interfaces/IVault.sol\n\n### 总体评估\n本次审计发现了 2 个严重漏洞、3 个高危漏洞、5 个中危问题和若干低危/信息性问题。\n\n### 漏洞统计\n- Critical: 2\n- High: 3\n- Medium: 5\n- Low: 2\n- Informational: 4\n\n## 详细发现\n\n### [C-01] 重入漏洞导致资金损失\n\n**严重程度**: Critical\n\n**描述**:\n`withdraw()` 函数在更新余额之前进行外部调用，存在重入攻击风险。攻击者可以通过恶意合约在 `receive()` 函数中再次调用 `withdraw()`，从而多次提取资金。\n\n**位置**:\n`contracts/Vault.sol:45-52`",
+    "**代码**:\n```solidity\nfunction withdraw(uint256 amount) public {\n    require(balances[msg.sender] >= amount, \"Insufficient balance\");\n    \n    (bool success, ) = msg.sender.call{value: amount}(\"\");\n    require(success, \"Transfer failed\");\n    \n    balances[msg.sender] -= amount; // 状态更新在外部调用之后\n}\n```\n\n**影响**:\n攻击者可以提取超过其实际余额的资金，导致合约资金损失。\n\n**修复建议**:\n```solidity\nimport \"@openzeppelin/contracts/security/ReentrancyGuard.sol\";",
+    "contract Vault is ReentrancyGuard {\n    function withdraw(uint256 amount) public nonReentrant {\n        require(balances[msg.sender] >= amount, \"Insufficient balance\");\n        \n        balances[msg.sender] -= amount; // 先更新状态\n        \n        (bool success, ) = msg.sender.call{value: amount}(\"\");\n        require(success, \"Transfer failed\");\n    }\n}\n```\n\n**参考**: SWC-107\n\n---\n\n### [C-02] 未授权访问导致资金提取\n\n**严重程度**: Critical\n\n**描述**:\n`emergencyWithdraw()` 函数缺少访问控制，任何人都可以调用此函数提取合约中的所有资金。\n\n**位置**:\n`contracts/Vault.sol:60-65`",
+    "**代码**:\n```solidity\nfunction emergencyWithdraw() public {\n    uint256 balance = address(this).balance;\n    (bool success, ) = msg.sender.call{value: balance}(\"\");\n    require(success, \"Transfer failed\");\n}\n```\n\n**影响**:\n攻击者可以立即提取合约中的所有资金。\n\n**修复建议**:\n```solidity\nimport \"@openzeppelin/contracts/access/Ownable.sol\";\n\ncontract Vault is Ownable {\n    function emergencyWithdraw() public onlyOwner {\n        uint256 balance = address(this).balance;\n        (bool success, ) = owner().call{value: balance}(\"\");\n        require(success, \"Transfer failed\");\n    }\n}\n```\n\n**参考**: SWC-105\n\n---",
+    "### [H-01] 整数溢出风险\n\n**严重程度**: High\n\n**描述**:\n在 Solidity 0.8.0 之前的版本中，`deposit()` 函数存在整数溢出风险。虽然当前代码使用 0.8.0+，但建议添加显式检查以提高可读性。\n\n**位置**:\n`contracts/Vault.sol:30-35`\n\n**代码**:\n```solidity\nfunction deposit() public payable {\n    balances[msg.sender] += msg.value; // 可能溢出（< 0.8.0）\n}\n```\n\n**影响**:\n在旧版本 Solidity 中可能导致整数溢出，造成资金计算错误。\n\n**修复建议**:\n确保使用 Solidity 0.8.0+，或添加显式检查：\n```solidity\nfunction deposit() public payable {\n    require(balances[msg.sender] + msg.value >= balances[msg.sender], \"Overflow\");\n    balances[msg.sender] += msg.value;\n}\n```\n\n**参考**: SWC-101\n\n---\n\n### [H-02] 未检查外部调用返回值\n\n**严重程度**: High",
+    "**描述**:\n虽然代码检查了 `call()` 的返回值，但某些代币的 `transfer()` 函数可能不返回 bool 值，导致调用失败。\n\n**位置**:\n`contracts/Vault.sol:45-52`\n\n**影响**:\n如果与不遵循标准的代币交互，可能导致调用失败但未检测到。\n\n**修复建议**:\n使用 SafeERC20 处理代币转账：\n```solidity\nimport \"@openzeppelin/contracts/token/ERC20/utils/SafeERC20.sol\";\n\nusing SafeERC20 for IERC20;\n\nfunction withdrawToken(IERC20 token, uint256 amount) public {\n    token.safeTransfer(msg.sender, amount);\n}\n```\n\n**参考**: SWC-104\n\n---\n\n### [H-03] 时间戳依赖\n\n**严重程度**: High\n\n**描述**:\n`calculateReward()` 函数使用 `block.timestamp` 计算奖励，可能被矿工操纵。\n\n**位置**:\n`contracts/Vault.sol:70-75`",
+    "**代码**:\n```solidity\nfunction calculateReward(address user) public view returns (uint256) {\n    uint256 timeDiff = block.timestamp - lastUpdate[user];\n    return balances[user] * timeDiff / 1 days; // 依赖 block.timestamp\n}\n```\n\n**影响**:\n矿工可以在 ±15 秒范围内操纵时间戳，影响奖励计算。",
+    "**修复建议**:\n避免使用 `block.timestamp` 进行关键计算，或使用时间范围检查：\n```solidity\nfunction calculateReward(address user) public view returns (uint256) {\n    require(block.timestamp >= lastUpdate[user], \"Invalid timestamp\");\n    uint256 timeDiff = block.timestamp - lastUpdate[user];\n    // 添加最小时间限制\n    if (timeDiff < 1 days) return 0;\n    return balances[user] * timeDiff / 1 days;\n}\n```\n\n**参考**: SWC-116\n\n---\n\n### [M-01] Gas 优化：未使用打包存储\n\n**严重程度**: Medium\n\n**描述**:\n`UserInfo` 结构体未优化存储布局，浪费 Gas。\n\n**位置**:\n`contracts/Vault.sol:15-19`",
+    "**代码**:\n```solidity\nstruct UserInfo {\n    uint256 balance;    // 32 bytes\n    uint128 reward;     // 16 bytes\n    uint128 timestamp;  // 16 bytes\n}\n```\n\n**修复建议**:\n重新排列结构体以打包到单个存储槽：\n```solidity\nstruct UserInfo {\n    uint128 reward;     // 16 bytes\n    uint128 timestamp;  // 16 bytes\n    uint256 balance;    // 32 bytes\n}\n```\n\n---\n\n### [M-02] 缺少事件\n\n**严重程度**: Medium\n\n**描述**:\n关键操作（deposit, withdraw）未发出事件，不利于链下监控和审计。\n\n**修复建议**:\n添加事件：\n```solidity\nevent Deposit(address indexed user, uint256 amount);\nevent Withdraw(address indexed user, uint256 amount);",
+    "function deposit() public payable {\n    balances[msg.sender] += msg.value;\n    emit Deposit(msg.sender, msg.value);\n}\n```\n\n---\n\n### [M-03] 缺少暂停机制\n\n**严重程度**: Medium\n\n**描述**:\n合约缺少紧急暂停机制，在发现漏洞时无法及时停止交易。\n\n**修复建议**:\n使用 OpenZeppelin 的 Pausable：\n```solidity\nimport \"@openzeppelin/contracts/security/Pausable.sol\";\n\ncontract Vault is Pausable, Ownable {\n    function withdraw(uint256 amount) public whenNotPaused {\n        // ...\n    }\n    \n    function pause() public onlyOwner {\n        _pause();\n    }\n}\n```\n\n---\n\n### [M-04] 未实现时间锁\n\n**严重程度**: Medium\n\n**描述**:\n关键操作（如 emergencyWithdraw）缺少时间锁，无法给用户时间响应。",
+    "**修复建议**:\n使用 OpenZeppelin 的 TimelockController。\n\n---\n\n### [M-05] 缺少最大提取限制\n\n**严重程度**: Medium\n\n**描述**:\n单次提取没有上限，可能导致 Gas 限制问题。\n\n**修复建议**:\n添加最大提取限制：\n```solidity\nuint256 public constant MAX_WITHDRAW = 1000 ether;\n\nfunction withdraw(uint256 amount) public {\n    require(amount <= MAX_WITHDRAW, \"Exceeds max withdraw\");\n    // ...\n}\n```\n\n---\n\n### [L-01] 代码注释不足\n\n**严重程度**: Low\n\n**描述**:\n部分函数缺少 NatSpec 注释。\n\n**修复建议**:\n添加完整的 NatSpec 注释。\n\n---\n\n### [L-02] 魔法数字\n\n**严重程度**: Low\n\n**描述**:\n代码中存在魔法数字（如 `1 days`），应定义为常量。\n\n**修复建议**:\n```solidity\nuint256 public constant REWARD_PERIOD = 1 days;\n```\n\n---\n\n## 测试覆盖",
+    "### 单元测试\n- 覆盖率: 85%\n- 主要功能: ✅ 已测试\n- 边界条件: ⚠️ 部分测试\n\n### 集成测试\n- 基本流程: ✅ 已测试\n- 重入攻击: ❌ 未测试\n- 访问控制: ⚠️ 部分测试\n\n### 模糊测试\n- 未进行模糊测试\n\n## 工具扫描结果\n\n### Slither\n- 发现 8 个问题（2 个高危，6 个中危）\n\n### Mythril\n- 发现 3 个潜在问题\n\n### Securify\n- 发现 2 个问题\n\n## 建议\n\n### 代码改进\n1. 实现完整的访问控制\n2. 添加重入保护\n3. 优化 Gas 消耗\n4. 添加事件和日志\n\n### 架构优化\n1. 考虑使用代理模式支持升级\n2. 实现多签钱包控制\n3. 添加时间锁机制\n\n### 安全增强\n1. 进行专业安全审计\n2. 实施漏洞赏金计划\n3. 定期安全审查\n4. 建立应急响应流程\n\n## 结论\n\n虽然合约实现了基本功能，但存在严重的安全漏洞，**不建议在主网部署**。建议修复所有 Critical 和 High 级别的问题后，重新进行审计。\n\n---\n\n**审计人员**: AI Auditor\n**报告版本**: 1.0\n**下次审计建议**: 修复后 2 周内",
+    "# ERC20 Token 审计报告示例\n\n## 执行摘要\n\n**审计目标**: Token.sol - ERC20 代币合约\n**审计日期**: 2024-01-15\n**审计方法**: 手动代码审查 + 自动化工具扫描\n\n### 总体评估\n本次审计发现了 1 个高危漏洞、3 个中危问题和若干低危问题。\n\n### 漏洞统计\n- Critical: 0\n- High: 1\n- Medium: 3\n- Low: 2\n- Informational: 3\n\n## 详细发现\n\n### [H-01] approve 竞态条件\n\n**严重程度**: High\n\n**描述**:\n`approve()` 函数存在竞态条件，用户无法安全地更改授权额度。\n\n**修复建议**:\n使用 `increaseAllowance` 和 `decreaseAllowance`，或先设置为 0 再设置新值。\n\n**参考**: SWC-114\n\n---\n\n### [M-01] 缺少暂停机制\n\n**严重程度**: Medium\n\n**描述**:\n代币合约缺少紧急暂停功能。\n\n**修复建议**:\n实现 Pausable 功能。\n\n---\n\n## 结论\n\n合约整体安全性较好，但建议修复高危问题后再部署。\n\n---\n\n**审计人员**: AI Auditor\n**报告版本**: 1.0",
+    "# 测试最佳实践 / Testing Best Practices\n\n## 测试类型\n\n### 1. 单元测试\n测试单个函数或合约的功能。\n\n### 2. 集成测试\n测试多个合约之间的交互。\n\n### 3. 模糊测试 (Fuzzing)\n使用随机输入测试合约的健壮性。\n\n### 4. 形式化验证\n使用数学方法证明合约的正确性。\n\n## 测试框架\n\n### Foundry\n```solidity\n// test/MyContract.t.sol\nimport \"forge-std/Test.sol\";\nimport \"../src/MyContract.sol\";\n\ncontract MyContractTest is Test {\n    MyContract public contract;\n    \n    function setUp() public {\n        contract = new MyContract();\n    }\n    \n    function testFunction() public {\n        // 测试逻辑\n    }\n    \n    function testFuzz(uint256 x) public {\n        // 模糊测试\n    }\n}\n```",
+    "### Hardhat\n```javascript\nconst { expect } = require(\"chai\");\n\ndescribe(\"MyContract\", function () {\n    it(\"Should work correctly\", async function () {\n        // 测试逻辑\n    });\n});\n```\n\n## 测试覆盖\n\n### 目标覆盖率\n- 单元测试: 90%+\n- 集成测试: 覆盖所有主要流程\n- 边界条件: 100% 覆盖\n\n### 关键测试场景\n1. 正常流程\n2. 边界条件（0, 最大值, 最小值）\n3. 错误条件（revert 情况）\n4. 重入攻击\n5. 访问控制\n6. 整数溢出/下溢\n7. Gas 限制\n\n## 最佳实践\n\n### 1. 使用 Fixtures\n```solidity\nfunction setUp() public {\n    // 设置测试环境\n}\n```\n\n### 2. 测试事件\n```solidity\nvm.expectEmit(true, true, false, true);\nemit Transfer(from, to, amount);\ncontract.transfer(to, amount);\n```",
+    "### 3. 测试 Revert\n```solidity\nvm.expectRevert(InsufficientBalance.selector);\ncontract.withdraw(amount);\n```\n\n### 4. 使用快照\n```solidity\nuint256 snapshot = vm.snapshot();\n// 修改状态\nvm.revertTo(snapshot);\n```\n\n## 常见错误\n\n1. 测试覆盖率不足\n2. 未测试边界条件\n3. 未测试错误情况\n4. 测试过于简单\n5. 未测试 Gas 消耗\n\n## 工具推荐\n\n- Foundry: 快速、强大的测试框架\n- Hardhat: 流行的开发框架\n- Echidna: 模糊测试工具\n- Slither: 静态分析\n- Mythril: 符号执行",
+    "# 常见漏洞模式 / Common Vulnerability Patterns\n\n## 1. 重入攻击 (Reentrancy)\n\n### 模式\n```solidity\n// ❌ 危险模式\nfunction withdraw() public {\n    uint256 amount = balances[msg.sender];\n    (bool success, ) = msg.sender.call{value: amount}(\"\");\n    balances[msg.sender] = 0; // 状态更新在外部调用之后\n}\n```\n\n### 防护\n- 使用 ReentrancyGuard\n- 遵循 CEI 模式（Checks-Effects-Interactions）\n- 先更新状态，再进行外部调用\n\n## 2. 整数溢出/下溢\n\n### 模式\n```solidity\n// ❌ Solidity < 0.8\nuint256 total = a + b; // 可能溢出\n```\n\n### 防护\n- 使用 Solidity 0.8+（内置检查）\n- 或使用 SafeMath 库\n\n## 3. 未检查返回值\n\n### 模式\n```solidity\n// ❌ 危险\ntoken.transfer(to, amount);\n```",
+    "### 防护\n- 使用 SafeERC20\n- 检查返回值\n\n## 4. 访问控制缺失\n\n### 模式\n```solidity\n// ❌ 危险\nfunction withdraw() public {\n    // 任何人都可以调用\n}\n```\n\n### 防护\n- 使用 `onlyOwner` 或 `onlyRole` 修饰符\n- 实现多签钱包控制\n- 使用时间锁延迟关键操作\n\n## 5. 时间戳依赖\n\n### 模式\n```solidity\n// ❌ 危险：使用 block.timestamp 作为随机源\nuint256 random = block.timestamp % 100;\n```\n\n### 防护\n- 避免使用 block.timestamp 作为随机源\n- 使用 Chainlink VRF 或其他可信随机源\n- 使用 commit-reveal 方案\n\n## 6. 前端运行 (Front-running)\n\n### 模式\n```solidity\n// ❌ 危险：交易在 mempool 中可见\nfunction buy(uint256 amount) public {\n    uint256 price = calculatePrice(amount);\n    // 攻击者可以抢先执行\n}\n```",
+    "### 防护\n- 使用 commit-reveal 方案\n- 设置价格限制\n- 使用私有 mempool（如 Flashbots）\n\n## 7. 委托调用风险\n\n### 模式\n```solidity\n// ❌ 危险：委托调用不可信合约\ndelegatecall(target, data);\n```\n\n### 防护\n- 仅委托调用可信合约\n- 验证目标地址\n- 使用库模式而非委托调用\n\n## 8. 未初始化存储指针\n\n### 模式\n```solidity\n// ❌ 危险：未初始化的存储指针\nstruct Data {\n    uint256 value;\n}\nData storage data; // 未初始化\n```\n\n### 防护\n- 始终初始化存储指针\n- 使用 memory 而非 storage（如果可能）\n- 使用 Solidity 0.5.0+ 的检查\n\n## 9. 函数选择器冲突\n\n### 模式\n```solidity\n// ❌ 危险：函数选择器可能冲突\nfunction transfer(address to, uint256 amount) public {}\nfunction transfer(address to) public {} // 选择器冲突\n```\n\n### 防护\n- 确保函数签名唯一\n- 使用不同的参数类型\n- 使用函数重载时注意选择器",
+    "## 10. 浮点 pragma\n\n### 模式\n```solidity\n// ❌ 危险：浮点版本\npragma solidity ^0.8.0;\n```\n\n### 防护\n- 使用固定版本：`pragma solidity 0.8.20;`\n- 或使用范围：`pragma solidity >=0.8.0 <0.9.0;`\n\n## 检测工具\n\n- Slither: 静态分析\n- Mythril: 符号执行\n- Echidna: 模糊测试\n- Manticore: 符号执行\n- Securify: 在线分析",
+    "# ERC20 常见问题 / Common Issues\n\n## 1. approve 竞态条件 (Race Condition)\n\n### 问题描述\n当用户想要将授权从 A 改为 B 时，如果先调用 `approve(B, amount)`，恶意用户可能在前一个交易被确认前，使用旧的授权额度。\n\n### 解决方案\n使用 `increaseAllowance` 和 `decreaseAllowance`，或先设置为 0 再设置新值：\n```solidity\nfunction safeApprove(address spender, uint256 amount) external {\n    require(allowance[msg.sender][spender] == 0, \"Approve must be zero first\");\n    _approve(msg.sender, spender, amount);\n}\n```\n\n## 2. 返回值缺失\n\n### 问题描述\nERC20 标准要求 `transfer` 和 `transferFrom` 返回 bool，但某些代币（如 USDT）不返回。",
+    "### 解决方案\n使用 OpenZeppelin 的 SafeERC20：\n```solidity\nimport \"@openzeppelin/contracts/token/ERC20/utils/SafeERC20.sol\";\n\nusing SafeERC20 for IERC20;\ntoken.safeTransfer(to, amount); // 自动处理返回值\n```\n\n## 3. 精度问题\n\n### 问题描述\n某些代币使用非常小的精度（如 18 位小数），在计算时可能出现精度损失。\n\n### 解决方案\n- 使用足够大的整数进行计算\n- 最后再除以精度因子\n- 使用 SafeMath（Solidity < 0.8）或依赖内置溢出检查（>= 0.8）\n\n## 4. 重入攻击\n\n### 问题描述\n在 `transfer` 回调中可能触发重入攻击。\n\n### 解决方案\n- 使用 ReentrancyGuard\n- 遵循 Checks-Effects-Interactions 模式\n- 在外部调用前更新状态\n\n## 5. 前端运行攻击 (Front-running)\n\n### 问题描述\n交易在 mempool 中可见，攻击者可能抢先执行。",
+    "### 解决方案\n- 使用 commit-reveal 方案\n- 设置最小/最大价格限制\n- 使用私有 mempool（如 Flashbots）\n\n## 最佳实践总结\n1. 始终使用 OpenZeppelin 的实现\n2. 进行全面的单元测试\n3. 使用静态分析工具（Slither, Mythril）\n4. 进行专业的安全审计\n5. 实现时间锁和多重签名保护关键操作",
+    "# Gas 优化 / Gas Optimization\n\n## 存储优化\n\n### 1. 使用打包存储\n```solidity\n// ❌ 浪费 Gas\nstruct User {\n    uint256 id;        // 32 bytes\n    uint128 balance;   // 16 bytes\n    uint128 timestamp; // 16 bytes\n}\n\n// ✅ 优化：打包到单个存储槽\nstruct User {\n    uint128 balance;   // 16 bytes\n    uint128 timestamp; // 16 bytes\n    uint256 id;        // 32 bytes\n}\n```\n\n### 2. 使用事件而非存储\n对于不需要链上访问的数据，使用事件而非存储变量。\n\n### 3. 缓存存储变量\n```solidity\n// ❌ 多次读取存储\nfunction update() public {\n    users[msg.sender].balance += 1;\n    users[msg.sender].count += 1;\n    users[msg.sender].lastUpdate = block.timestamp;\n}",
+    "// ✅ 优化：缓存到内存\nfunction update() public {\n    User storage user = users[msg.sender];\n    user.balance += 1;\n    user.count += 1;\n    user.lastUpdate = block.timestamp;\n}\n```\n\n## 函数优化\n\n### 1. 使用 external 而非 public\n对于不需要内部调用的函数，使用 `external` 可以节省 Gas。\n\n### 2. 批量操作\n```solidity\n// ❌ 多次调用\nfunction transferMany(address[] memory to, uint256[] memory amounts) public {\n    for (uint i = 0; i < to.length; i++) {\n        transfer(to[i], amounts[i]);\n    }\n}",
+    "// ✅ 优化：批量处理\nfunction transferMany(address[] memory to, uint256[] memory amounts) public {\n    require(to.length == amounts.length, \"Length mismatch\");\n    for (uint i = 0; i < to.length; i++) {\n        _transfer(msg.sender, to[i], amounts[i]);\n    }\n}\n```\n\n### 3. 短路评估\n```solidity\n// ✅ 使用 && 和 || 的短路特性\nif (condition1 && condition2) {\n    // 如果 condition1 为 false，不会评估 condition2\n}\n```\n\n## 循环优化\n\n### 1. 缓存数组长度\n```solidity\n// ❌ 每次循环都读取长度\nfor (uint i = 0; i < array.length; i++) {\n    // ...\n}\n\n// ✅ 优化：缓存长度\nuint length = array.length;\nfor (uint i = 0; i < length; i++) {\n    // ...\n}\n```",
+    "### 2. 使用 unchecked 块\n在确保不会溢出的情况下，使用 `unchecked` 块可以节省 Gas。\n\n## 其他优化技巧\n\n1. **使用自定义错误而非 require 字符串**\n   ```solidity\n   error InsufficientBalance();\n   if (balance < amount) revert InsufficientBalance();\n   ```\n\n2. **使用 immutable 和 constant**\n   ```solidity\n   address public immutable owner;\n   uint256 public constant MAX_SUPPLY = 1000000;\n   ```\n\n3. **避免不必要的零值检查**\n   ```solidity\n   // Solidity 0.8+ 自动检查，无需手动检查\n   ```\n\n4. **使用 assembly 进行低级优化**（仅在必要时）\n\n## 工具\n- Hardhat Gas Reporter\n- Foundry Gas Snapshot\n- Tenderly Gas Profiler",
+    "# 治理与多签 / Governance and Multisig\n\n## 多签钱包\n\n### Gnosis Safe\n最流行的多签钱包解决方案：\n- 支持任意数量的签名者\n- 可配置阈值（如 3/5）\n- 提供丰富的功能（模块、插件）\n\n### 使用场景\n- 管理合约所有者权限\n- 控制资金转移\n- 执行关键操作（升级、参数修改）\n\n## 时间锁 (Timelock)\n\n### 作用\n延迟关键操作的执行，给社区时间审查和响应。\n\n### 实现\n```solidity\nimport \"@openzeppelin/contracts/governance/TimelockController.sol\";\n\ncontract MyTimelock is TimelockController {\n    constructor(\n        uint256 minDelay,\n        address[] memory proposers,\n        address[] memory executors\n    ) TimelockController(minDelay, proposers, executors) {}\n}\n```\n\n### 最佳实践\n- 关键操作至少延迟 24-48 小时\n- 紧急操作可以设置更短的延迟\n- 使用多签钱包作为 proposer",
+    "## DAO 治理\n\n### 投票机制\n1. **简单多数投票**：超过 50% 支持即通过\n2. **法定人数投票**：需要达到最小投票人数\n3. **加权投票**：根据代币持有量加权\n\n### 提案流程\n1. 创建提案\n2. 投票期（通常 3-7 天）\n3. 执行期（提案通过后可执行）\n4. 时间锁延迟（可选）\n\n## 安全最佳实践\n\n### 1. 多签配置\n- 至少 3 个签名者\n- 阈值设置为 2/3 或更高\n- 使用硬件钱包作为签名者\n\n### 2. 时间锁配置\n- 关键操作延迟至少 24 小时\n- 使用多签钱包控制时间锁\n- 定期审查待执行操作\n\n### 3. 治理代币\n- 防止代币集中持有\n- 实施反女巫攻击机制\n- 考虑委托投票\n\n## 常见错误\n1. 多签阈值设置过低（如 1/3）\n2. 忘记实施时间锁\n3. 治理代币可被恶意集中\n4. 提案执行无时间限制\n\n## 推荐工具\n- Gnosis Safe\n- OpenZeppelin Governor\n- Compound Governor\n- Aragon",
+    "# 代理模式 / Proxy Patterns\n\n## Transparent Proxy Pattern\n\n### 特点\n- 管理员调用和用户调用通过不同路径\n- 避免函数选择器冲突\n- 实现相对简单\n\n### 使用场景\n适合大多数可升级合约场景。\n\n### 示例\n```solidity\nimport \"@openzeppelin/contracts/proxy/transparent/TransparentUpgradeableProxy.sol\";\n```\n\n## UUPS (Universal Upgradeable Proxy Standard)\n\n### 特点\n- 升级逻辑在实现合约中\n- Gas 成本更低\n- 更灵活\n\n### 使用场景\n适合需要频繁升级的合约。\n\n### 安全注意事项\n- 必须保护 `_authorizeUpgrade` 函数\n- 确保存储布局兼容性\n\n## Beacon Proxy Pattern\n\n### 特点\n- 多个代理共享同一个实现\n- 一次升级影响所有代理\n- 适合工厂模式\n\n### 使用场景\n适合需要部署多个相同合约实例的场景。\n\n## 安全最佳实践",
+    "### 1. 存储布局兼容性\n```solidity\n// ❌ 错误：在现有变量之间插入新变量\ncontract V1 {\n    uint256 public a;\n    uint256 public b; // 新变量\n    uint256 public c;\n}\n\n// ✅ 正确：在末尾添加新变量\ncontract V2 {\n    uint256 public a;\n    uint256 public c;\n    uint256 public b; // 新变量在末尾\n}\n```\n\n### 2. 初始化器保护\n```solidity\ncontract MyContract {\n    bool private initialized;\n    \n    function initialize() external {\n        require(!initialized, \"Already initialized\");\n        initialized = true;\n        // 初始化逻辑\n    }\n}\n```",
+    "### 3. 代理存储槽冲突\n使用 EIP-1967 标准存储槽：\n- Implementation: `bytes32(uint256(keccak256('eip1967.proxy.implementation')) - 1)`\n- Admin: `bytes32(uint256(keccak256('eip1967.proxy.admin')) - 1)`\n\n## 常见错误\n1. 修改存储变量顺序\n2. 忘记保护升级函数\n3. 在实现合约中使用构造函数（应使用初始化函数）\n4. 存储槽冲突\n\n## 推荐工具\n- OpenZeppelin Upgrades Plugin\n- Hardhat Upgrades\n- Foundry 的 forge upgrade",
+    "# 审计报告模板 / Audit Report Template\n\n## 报告结构\n\n### 1. 执行摘要 (Executive Summary)\n- 审计范围\n- 审计方法\n- 总体风险评估\n- 关键发现摘要\n\n### 2. 漏洞分类\n\n#### Critical (严重)\n- 可能导致资金损失或合约完全失效\n- 示例：重入攻击、整数溢出、未授权访问\n\n#### High (高危)\n- 可能导致部分资金损失或功能失效\n- 示例：逻辑错误、访问控制缺陷\n\n#### Medium (中危)\n- 可能导致功能异常或用户体验问题\n- 示例：Gas 优化、边界条件处理\n\n#### Low (低危)\n- 代码质量问题，不影响功能\n- 示例：代码风格、注释缺失\n\n#### Informational (信息)\n- 建议和改进意见\n- 示例：最佳实践建议、代码优化\n\n### 3. 详细发现\n\n每个发现应包含：\n```\n### [H-01] 标题\n\n**描述**：\n详细描述问题\n\n**影响**：\n说明可能的影响和后果\n\n**位置**：\n文件路径和行号\n\n**代码**：\n```solidity\n// 问题代码\n```\n\n**修复建议**：\n```solidity\n// 修复后的代码\n```\n\n**参考**：\n相关 SWC 编号或文档链接\n```\n\n### 4. 测试覆盖",
+    "- 单元测试覆盖率\n- 集成测试情况\n- 模糊测试结果\n\n### 5. 工具扫描结果\n\n- Slither 扫描结果\n- Mythril 分析结果\n- 其他工具发现\n\n### 6. 建议\n\n- 代码改进建议\n- 架构优化建议\n- 安全增强建议\n\n## 报告示例格式\n\n```markdown\n# 审计报告\n\n**项目名称**: Token Contract\n**审计日期**: 2024-01-01\n**审计范围**: contracts/Token.sol\n**审计方法**: 手动审查 + 自动化工具\n\n## 摘要\n- Critical: 2\n- High: 5\n- Medium: 8\n- Low: 3\n\n## 详细发现\n\n### [C-01] 重入漏洞\n...\n```\n\n## 最佳实践\n1. 使用标准化的严重程度分类\n2. 提供清晰的修复建议\n3. 包含代码示例和 PoC\n4. 参考 SWC 和 CWE 分类\n5. 提供可执行的修复代码"
+  ]
+}
