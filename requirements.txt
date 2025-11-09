@@ -1,0 +1,25 @@
+openai>=1.52.0             # 若 DeepSeek 提供 OpenAI 兼容端，可复用
+httpx>=0.27.0              # 通用HTTP调用
+loguru>=0.7.2
+faiss-cpu>=1.8.0
+rank-bm25>=0.2.2
+pydantic>=2.8.2
+pydantic-settings>=2.0.0   # Pydantic Settings支持
+python-dotenv>=1.0.1
+orjson>=3.10.7
+tqdm>=4.66.4
+web3>=6.0.0                # 链状态查询
+dashscope>=1.14.0          # 阿里云Qwen Embedding（可选）
+
+# 安全分析工具（注意：存在依赖冲突，需要手动处理）
+# slither-analyzer>=0.11.0  # 静态分析工具
+# mythril>=0.24.0           # 符号执行工具（与 web3 和 slither 有依赖冲突）
+# 
+# 依赖冲突说明：
+# - mythril 需要: eth-abi<5.0.0, eth-hash<0.4.0, hexbytes<0.3.0, MarkupSafe<2.1.0
+# - slither 和 web3 需要: eth-abi>=5.0.1, eth-utils>=5.0.0, hexbytes>=1.2.0
+# 
+# 当前解决方案：
+# - 优先满足 slither 和 web3 的依赖（升级到新版本）
+# - mythril 可能仍可使用，但会有警告
+# - 如需使用 mythril，建议在单独的虚拟环境中安装
